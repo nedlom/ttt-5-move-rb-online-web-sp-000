@@ -8,5 +8,5 @@ board = Array.new(9, " ")
 
 puts "Where would you like to go?"
 position = gets.strip
-move(board, input_to_index(position)
+move(board, input_to_index(position))
 display_board(board)
